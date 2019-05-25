@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+.content .banner {
+	height: 181px;
+	border-top: solid 1px #ddd;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 180px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	height: 100%;
+}
+
+.nav {
+	height: 45px;
+	overflow: hidden;
+	position: relative;
+}
+
+.nav .inner {
+	overflow-x: scroll;
+	height: 62px;
+	padding-bottom: 17px;
+	padding: 11px;
+	position: relative;
+}
+
+.nav .nav-more {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 6px;
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	cursor: pointer;
+	text-align: center;
+	z-index: 999;
+}
+
+.nav-more:before {
+	content: "\F107";
+	font-family: FontAwesome;
+	color: #EA1313;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.inner ul {
+	display: block;
+	height: 23px;
+	width: 1200px;
+}
+
+.inner ul:after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.inner li {
+	height: 20px;
+	display: block;
+	float: left;
+	border-right: solid 1px #d5d5d5;
+	font-size: 16px;
+	padding: 0 2px;
+}
+
+.inner li a {
+	color: rgba(228, 70, 59, 1);
+	font-weight: 600;
+	display: block;
+	padding: 0 15px;
+}
+
+.inner li.active a {
+	border-bottom: solid 2px #f60;
+}
+
+.table-list {
+	height: 184px;
+	margin-top: 10px;
+}
+
+.table-list li {
+	float: left;
+	height: 87px;
+	width: 25%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.table-list li a .tl-text {
+	color: #000;
+	text-decoration: none;
+	font-family: "microsoft yahei";
+}
+
+.table-list .tl-icon {
+	height: 48px;
+}
+
+.table-list .tl-text {
+	height: 17px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.fee {
+	border-top: solid 1px #ddd;
+}
+
+.fee .fee-h {
+	height: 40px;
+	font: 500 16px/40px "microsoft yahei";
+	padding: 0 10px;
+}
+
+.fee .fee-more {
+	float: right;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+}
+
+.fee-h .arrow-right:before {
+	content: "\F105";
+	font-family: FontAwesome;
+}
+
+.fee-more .fee-refresh {
+	display: block;
+	float: left;
+	font-family: Material Icons;
+	font-size: 14px;
+	width: 14px;
+}
+
+.fee-content {
+	padding: 10px 10px 0 10px;
+}
+
+.fee-content li {
+	height: 121px;
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.fee-content li:last-child {
+	border: none;
+}
+
+.fee-content li .fc-img {
+	width: 115px;
+	float: left;
+}
+
+.fc-img img {
+	width: 115px;
+	height: 115px;
+}
+
+.fee-content li .fc-text {
+	margin-left: 122px;
+	height: 115px;
+	overflow: hidden;
+}
+
+.fc-text p {
+	font: 500 14px/18px "microsoft yahei";
+	height: 18px;
+	overflow: hidden;
+}
+
+.fee-content li a {
+	color: #101010;
+}
+
+.fc-text h4 {
+	color: #101010;
+	height: 42px;
+	line-height: 21px;
+	overflow: hidden;
+}
+
+.fc-text .doAction {
+	height: 35px;
+}
+
+.doAction .da-left {
+	float: left;
+	width: 122px;
+	height: 35px;
+}
+
+.doAction .da-right {
+	padding-top: 10px;
+}
+
+.doAction .da-right .da-button {
+	width: 68px;
+	height: 23px;
+	background: #EA1313;
+	text-align: center;
+	color: #fff;
+	line-height: 23px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.doAction .da-right .da-button:focus {
+	border: none;
+	outline: none;
+}
+
+.da-left span {
+	display: block;
+	line-height: 17px;
+	color: #E4463B;
+	font: 500 15px/17px "microsoft yahei"
+}
+
+.songsheet-content li {
+	height: 156px;
+	width: 33.333333%;
+	float: left;
+	margin-bottom: 10px;
+	border: none;
+	padding: 0 5px;
+}
+
+.songsheet-content li .sc-icon {
+	height: 115px;
+}
+
+.sc-icon img {
+	height: 115px;
+	width: 100%;
+}
+
+.songsheet-content li .sc-text {
+	height: 35px;
+	margin-top: 6px;
+	line-height: 17px;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #EA1313;
+}
