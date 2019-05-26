@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.user-info {
+	height: 91px;
+	border-bottom: solid 1px #ddd;
+	padding-top: 25px;
+}
+
+.ui-inner {
+	height: 60px;
+	padding: 0 10px;
+}
+
+.ui-inner .icon {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+}
+
+.ui-inner .action {
+	margin-left: 80px;
+	height: 60px;
+}
+
+.ui-inner::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.action h3 {
+	color: #101010;
+	font: 500 16px/30px "microsoft yahei";
+}
+
+.action p {
+	border-radius: 15px;
+	border: solid 1px #ddd;
+	display: inline;
+	padding: 0 10px;
+	color: #8F9092;
+	font: italic 500 12px/16px "microsoft yahei";
+
+}
+
+.action .sign-in {
+	float: right;
+	height: 22px;
+	color: #E4463B;
+	line-height: 20px;
+	border: solid 1px #E4463B;
+	padding: 0 6px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.action .sign-in.active {
+	border: solid 1px #A4A4A6;
+	color: #A4A4A6;
+}
