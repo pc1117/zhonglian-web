@@ -58,7 +58,7 @@ html,
 body {
 	font-family: "微软雅黑";
 	font-size: 14px;
-	color: #333;
+	color: #101010;
 	margin: 0 auto;
 }
 
@@ -150,7 +150,7 @@ a:link {
 }
 
 .footer {
-	height: 45px;
+	height: 48px;
 	position: fixed;
 	width: 100%;
 	display: flex;
@@ -163,7 +163,6 @@ a:link {
 
 .footer li {
 	flex: 1;
-	height: 45px;
 	text-align: center;
 	padding: 5px;
 }
@@ -175,11 +174,61 @@ a:link {
 }
 
 .footer li .fl-icon {
-	height: 22px;
+	height: 24px;
 	text-align: center;
+	font-size: 24px;
+}
+
+.footer li.active .fl-icon,
+.footer li.active .fl-text {
+	color: #E4463B;
 }
 
 .footer li .fl-text {
-	height: 12px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 2px;
+}
+
+
+.fl-icon span.home:before {
+	font-family: FontAwesome;
+	content: "\F14E";
+	display: block;
+}
+
+.fl-icon span.all:before {
+	font-family: FontAwesome;
+	content: "\F16A";
+	display: block;
+}
+
+.fl-icon span.study:before {
+	font-family: FontAwesome;
+	content: "\F001";
+	display: block;
+}
+
+.fl-icon span.find:before {
+	font-family: FontAwesome;
+	content: "\f06e";
+	display: block;
+	transform: translateY(-5%);
+}
+
+.fl-icon span.acount:before {
+	font-family: FontAwesome;
+	content: "\F007";
+	display: block;
+}
+
+
+.header-h {
+	font: 500 16px/30px "microsoft yahei";
 	text-align: center;
 }
+

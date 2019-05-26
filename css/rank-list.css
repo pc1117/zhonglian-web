@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.rank {
+	padding: 10px;
+}
+
+.rank-h {
+	font: 500 16px/30px "microsoft yahei";
+}
+
+.rank-list li {
+	height: 120px;
+	border-bottom: solid 1px #ddd;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.rank-list .li-icon,
+.global-rank .sc-icon {
+	width: 115px;
+	float: left;
+	border-radius: 4px;
+	background-color: rgb(96, 148, 218);
+	color: #fff;
+	height: 115px;
+	text-align: center;
+	padding-top: 46px;
+}
+
+.li-icon h1,
+.sc-icon h1 {
+	height: 46px;
+	font: 500 28px/28px "microsoft yahei";
+}
+
+.li-icon p,
+.sc-icon p {
+	font: 500 12px/14px "microsoft yahei";
+}
+
+.rank-list .li-text {
+	margin-left: 125px;
+	height: 120px;
+	font: 500 14px/35px "microsoft yahei";
+	color: #646567;
+}
+
+.global-rank .gr-h {
+	height: 40px;
+	font: 500 16px/40px "microsoft yahei";
+	padding: 0 10px;
+}
+
+.rank-list .gr-content {
+	padding: 10px 10px 0 10px;
+}
+
+.gr-content li {
+	height: 156px;
+	width: 33.333333%;
+	float: left;
+	margin-bottom: 10px;
+	border: none;
+	padding: 0 5px;
+}
+
+.gr-content li .sc-icon {
+	height: 115px;
+}
+
+.sc-icon img {
+	height: 115px;
+	width: 100%;
+}
+
+.gr-content li .sc-text {
+	height: 35px;
+	margin-top: 6px;
+	line-height: 17px;
+	color: #303030;
+}
+
+.gr-content ul::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.global-rank .sc-icon {
+	float: none;
+	width: 100%;
+}

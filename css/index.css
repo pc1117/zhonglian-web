@@ -37,7 +37,7 @@
 	height: 45px;
 	overflow: hidden;
 	position: relative;
-	
+
 }
 
 .nav .inner {
@@ -189,7 +189,7 @@
 	margin-left: 122px;
 	height: 115px;
 	overflow: hidden;
-	white-space: nowrap; 
+	white-space: nowrap;
 	text-overflow: ellipsis;
 }
 
@@ -197,7 +197,7 @@
 	font: 500 14px/18px "microsoft yahei";
 	height: 18px;
 	overflow: hidden;
-	white-space: nowrap; 
+	white-space: nowrap;
 	text-overflow: ellipsis;
 }
 
@@ -210,7 +210,7 @@
 	height: 42px;
 	line-height: 21px;
 	overflow: hidden;
-	white-space: nowrap; 
+	white-space: normal;
 	text-overflow: ellipsis;
 }
 
