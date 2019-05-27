@@ -60,3 +60,65 @@
 	border: solid 1px #A4A4A6;
 	color: #A4A4A6;
 }
+
+.user-levels {
+	height: 74px;
+	display: flex;
+	border-radius: 15px;
+	background-color: rgba(242, 242, 242, 1);
+	text-align: center;
+	border: 1px dashed rgba(187, 187, 187, 1);
+	flex-direction: row;
+	margin-top: 8px;
+}
+
+.user-levels .li {
+	flex: 1;
+	height: 74px;
+	position: relative;
+}
+
+.user-levels .li .line {
+	position: absolute;
+	left: 50%;
+	width: 100%;
+	height: 1px;
+	background-color: #aaa;
+	top: 17px;
+	z-index: 2;
+}
+
+.user-levels .li .head {
+	height: 14px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 3;
+}
+
+.user-levels .li .body {
+	text-align: center;
+	padding: 30px 10px 10px 10px;
+}
+
+.user-levels .li .body .h {
+	height: 17px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 12px;
+}
+
+.user-levels .li.active .body .h {
+	color: #E4463B;
+}
+
+.user-levels .li .body .p {
+	height: 14px;
+	color: rgba(164, 164, 166, 1);
+	font-size: 10px;
+}
+
+.user-levels .li:last-child .line {
+	display: none;
+}
