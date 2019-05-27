@@ -122,3 +122,91 @@
 .user-levels .li:last-child .line {
 	display: none;
 }
+
+.user-orders {
+	margin-top: 8px;
+	height: 95px;
+	border-radius: 10px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	border: 1px solid rgba(187, 187, 187, 1);
+	padding: 0 14px;
+}
+
+.user-orders .head {
+	font: 14px/26px "microsoft yahei";
+	height: 27px;
+	border-bottom: solid 1px #ddd;
+	color: #101010;
+}
+
+.user-orders .head .more {
+	float: right;
+	color: #A4A4A6;
+}
+
+.head .more i {
+	padding-left: 15px;
+}
+
+.head .more i:before {
+	content: "\F105";
+	font-family: FontAwesome;
+	font-style: normal;
+}
+
+.user-orders .body {
+	display: block;
+}
+
+.user-orders .body::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.user-orders .body .li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 60px;
+}
+
+.user-orders .body .li .icon {
+	padding-top: 6px;
+	height: 36px;
+}
+
+.user-orders .body .li .text {
+	height: 22px;
+	color: rgba(164, 164, 166, 1);
+	font-size: 10px;
+	padding-top: 8px;
+}
+
+.user-navs {
+	height: 154px;
+}
+
+.user-adver {
+	margin-top: 8px;
+}
+
+.user-menus {
+	background-color: #EEEFF1;
+}
+
+.user-menus ul {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.user-menus ul li {
+	height: 45px;
+	border-bottom: solid 1px #f0f0f2;
+	box-sizing: content-box;
+}
+
+.user-menus ul li:last-child {
+	border: none;
+}

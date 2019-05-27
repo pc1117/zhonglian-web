@@ -69,6 +69,11 @@ a:link {
 	text-decoration: none;
 }
 
+a,
+img {
+	border: none;
+}
+
 .header {
 	height: 45px;
 	padding: 7px 0 7px 0;
@@ -231,4 +236,3 @@ a:link {
 	font: 500 16px/30px "microsoft yahei";
 	text-align: center;
 }
-
