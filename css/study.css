@@ -6,3 +6,29 @@
 	color: #FF4081;
 	height: 30px;
 }
+
+.study-content {
+	padding: 10px;
+}
+
+.study-content li {
+	height: 115px;
+	margin-bottom: 8px;
+}
+
+.study-content li .icon {
+	width: 115px;
+	height: 115px;
+}
+
+.study-content li .text {
+	margin-left: 124px;
+	height: 115px;
+}
+
+.text .h {
+	height: 44px;
+	line-height: 22px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 16px;
+}
