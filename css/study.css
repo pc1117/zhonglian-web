@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.audio-search .audio-search {
+	font-family: 'Material Icons';
+	cursor: pointer;
+	color: #FF4081;
+	height: 30px;
+}

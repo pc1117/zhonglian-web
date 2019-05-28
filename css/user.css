@@ -234,6 +234,7 @@
 	content: "\F105";
 	color: #C7C7CC;
 	font-family: FontAwesome;
+	clear: both;
 }
 
 .user-menus ul li .cash {
