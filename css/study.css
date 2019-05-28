@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 .audio-search .audio-search {
 	font-family: 'Material Icons';
 	cursor: pointer;
@@ -9,16 +8,69 @@
 
 .study-content {
 	padding: 10px;
+	padding-bottom: 50px;
 }
 
 .study-content li {
-	height: 115px;
+	height: 117px;
 	margin-bottom: 8px;
+	position: relative;
+	border-bottom: solid 1px #e3e4e6;
 }
 
 .study-content li .icon {
 	width: 115px;
 	height: 115px;
+	float: left;
+	border-radius: 4px;
+	position: relative;
+}
+
+.study-content li .icon span, .study-content li .do-action {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 6px 0px 6px 0px;
+	background-color: rgba(228, 70, 59, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 12px;
+	text-align: center;
+	font-family: Arial;
+	border: 1px solid rgba(228, 70, 59, 1);
+	cursor: pointer;
+}
+
+.study-content li .do-action {
+	right: 0;
+	bottom: 29px;
+	left: auto;
+	top: auto;
+	height: 18px;
+	width: 59px;
+	line-height: 18px;
+}
+
+.study-content li .do-action.power {
+	right: 0;
+	bottom: 2px;
+	left: auto;
+	top: auto;
+}
+
+.study-content li .do-action.un-active {
+	background-color: rgba(206, 201, 201, 1);
+	color: rgba(255, 255, 255, 1);
+	border: 1px solid rgba(206, 201, 201, 1);
+}
+
+.study-content li::after {
+	display: table;
+	content: "";
+	clear: both;
 }
 
 .study-content li .text {
@@ -31,4 +83,76 @@
 	line-height: 22px;
 	color: rgba(16, 16, 16, 1);
 	font-size: 16px;
+}
+
+.text .p {
+	height: 20px;
+	line-height: 20px;
+	color: rgba(128, 128, 130, 1);
+	font-size: 12px;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.text .p span {
+	display: block;
+	width: 50%;
+	float: left;
+	height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.text .p span i {
+	margin-right: 6px;
+}
+
+.text .p span i.msg:before {
+	content: "\f27b";
+	font-style: normal;
+	font-family: FontAwesome;
+}
+
+.text .p span i.menu:before {
+	content: "\f0cb";
+	font-style: normal;
+	font-family: FontAwesome;
+}
+
+.text .p.small {
+	font-size: 10px;
+}
+
+.text .t {
+	height: 14px;
+	color: rgba(100, 93, 93, 1);
+	font-size: 10px;
+	margin-top: 12px;
+}
+
+.study-content li.load-more {
+	height: 29px;
+	color: rgba(100, 93, 93, 1);
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.study-content li.load-more .inner {
+	height: 18px;
+	line-height: 18px;
+	margin: 0 auto;
+	width: 194px;
+}
+
+.load-more .inner i.material-icons {
+	font-style: normal;
+	font-family: 'Material Icons';
+	display: inline-block;
+	float: left;
 }
