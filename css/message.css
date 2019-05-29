@@ -169,6 +169,8 @@
 	color: rgba(13, 13, 12, 1);
 	font-size: 12px;
 	text-align: center;
+	line-height: 30px;
+	height: 30px;
 	font-family: PingFangSC-regular;
 }
 
