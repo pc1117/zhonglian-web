@@ -80,3 +80,85 @@
 	font-size: 30px;
 	font-family: FontAwesome;
 }
+
+.amount .amt-bot,
+.amount .amt-midd {
+	height: 81px;
+	text-align: center;
+	box-shadow: 0px 1px 0px 0px rgba(170, 170, 170, 1);
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+	padding: 9px;
+}
+
+.amt-bot ul li {
+	height: 53px;
+	float: left;
+	width: 50%;
+}
+
+.amt-bot ul li:first-child {
+	border-right: solid 1px #ce1f13;
+}
+
+.amt-bot ul li h1,
+.amount .amt-midd h1 {
+	height: 14px;
+	color: rgba(164, 164, 166, 1);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.amt-bot ul li p,
+.amount .amt-midd p {
+	margin-top: 20px;
+	color: rgba(228, 70, 59, 1);
+	font-size: 20px;
+}
+
+.dsb-content .adver {
+	height: 130px;
+	margin-top: 3px;
+}
+
+.dsb-content .nav-menus {
+	margin-top: 10px;
+	background: #fff;
+}
+
+.nav-menus ul li {
+	position: relative;
+	height: 45px;
+	line-height: 25px;
+	padding: 10px;
+	box-shadow: 0px 1px 0px 0px rgba(227, 228, 230, 1);
+}
+
+.nav-menus ul li a {
+	color: rgba(3, 3, 3, 1);
+	font-size: 16px;
+}
+
+.nav-menus ul li .icon {
+	float: left;
+	display: block;
+	height: 25px;
+	width: 25px;
+	margin-right: 15px;
+}
+
+.icon::before {
+	content: "\f029";
+	font-family: FontAwesome;
+	font-size: 24px;
+}
+
+.nav-menus ul li::after {
+	content: "\F105";
+	color: #A4A4A6;
+	position: absolute;
+	right: 9px;
+	top: -1px;
+	font-size: 20px;
+	font-family: FontAwesome;
+}
