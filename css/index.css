@@ -33,73 +33,7 @@
 	height: 100%;
 }
 
-.nav {
-	height: 45px;
-	overflow: hidden;
-	position: relative;
 
-}
-
-.nav .inner {
-	overflow-x: scroll;
-	height: 62px;
-	padding-bottom: 17px;
-	padding: 11px;
-	position: relative;
-}
-
-.nav .nav-more {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 6px;
-	width: 30px;
-	height: 30px;
-	background: #fff;
-	cursor: pointer;
-	text-align: center;
-	z-index: 999;
-}
-
-.nav-more:before {
-	content: "\F107";
-	font-family: FontAwesome;
-	color: #EA1313;
-	font-size: 30px;
-	line-height: 30px;
-}
-
-.inner ul {
-	display: block;
-	height: 23px;
-	width: 1200px;
-}
-
-.inner ul:after {
-	clear: both;
-	display: table;
-	content: "";
-}
-
-.inner li {
-	height: 20px;
-	display: block;
-	float: left;
-	border-right: solid 1px #d5d5d5;
-	font-size: 16px;
-	padding: 0 2px;
-}
-
-.inner li a {
-	color: rgba(228, 70, 59, 1);
-	font-weight: 600;
-	display: block;
-	padding: 0 15px;
-}
-
-.inner li.active a {
-	border-bottom: solid 2px #f60;
-}
 
 .table-list {
 	height: 184px;
@@ -201,6 +135,13 @@
 	text-overflow: ellipsis;
 }
 
+.fc-text p span.play::before {
+	content: "\F04B";
+	font-family: FontAwesome;
+	color: rgba(16, 16, 16, 0.5);
+	padding-right: 6px;
+}
+
 .fee-content li a {
 	color: #101010;
 }
@@ -278,4 +219,27 @@
 
 .swiper-pagination-bullet-active {
 	background-color: #EA1313;
+}
+
+.fee-content li.load-more {
+	height: 29px;
+	color: rgba(100, 93, 93, 1);
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.fee-content li.load-more .inner {
+	height: 18px;
+	line-height: 18px;
+	margin: 0 auto;
+	width: 194px;
+}
+
+.load-more .inner i.material-icons {
+	font-style: normal;
+	font-family: 'Material Icons';
+	float: left;
 }
