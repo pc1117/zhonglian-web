@@ -186,6 +186,7 @@
 	width: 41px;
 	height: 20px;
 	float: right;
+	cursor: pointer;
 }
 
 .follow span {
