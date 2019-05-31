@@ -1,13 +1,5 @@
 @charset "utf-8";
 
-.audio-search .arrow-back::before {
-	content: "\F104";
-	color: #EE190B;
-	font-family: FontAwesome;
-	position: relative;
-	top: -4px;
-}
-
 .dsb-content {
 	background: #f9f9f9;
 }

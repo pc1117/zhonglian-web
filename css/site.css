@@ -308,3 +308,22 @@ img {
 .inner li.active a {
 	border-bottom: solid 2px #f60;
 }
+
+.audio-search .arrow-back::before {
+	content: "\F104";
+	color: #EE190B;
+	font-family: FontAwesome;
+	position: relative;
+	top: -5px;
+}
+
+.other-search .arrow-share::before {
+	content: "";
+}
+
+.other-search .arrow-share::after {
+	content: "\F045";
+	color: #EE190B;
+	font-family: FontAwesome;
+	position: relative;
+}
