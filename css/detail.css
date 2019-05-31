@@ -51,14 +51,12 @@
 	display: block;
 	width: 118px;
 	height: 30px;
-	line-height: 28px;
 	opacity: 0.8;
-
+	line-height: 26px;
 	background-color: rgba(206, 31, 19, 1);
 	color: rgba(255, 255, 255, 1);
 	font-size: 12px;
 	text-align: center;
-	border: 1px solid rgba(206, 31, 19, 1);
 }
 
 .dsi-top ul li:nth-child(2n+1) span {
@@ -91,4 +89,276 @@
 	float: left;
 	height: 20px;
 	text-align: left;
+}
+
+.dsb-left span {
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.dsb-left .dollar {
+	background: #BB1C11;
+	color: #fff;
+	border-radius: 50%;
+}
+
+.dsb-left .dollar::before {
+	content: "\f155";
+	font-family: FontAwesome;
+
+}
+
+.dsb-left span i {
+	display: block;
+	font-weight: normal;
+	font-style: normal;
+	position: absolute;
+	right: -43px;
+	top: -4px;
+	width: 41px;
+	height: 17px;
+	color: rgba(234, 19, 19, 1);
+	font-size: 8px;
+	text-align: left;
+}
+
+.dsb-left .eye {
+	color: #BB1C11;
+}
+
+.dsb-left .eye::before {
+	content: "\f06e";
+	font-family: FontAwesome;
+}
+
+.dsb-right {
+	height: 30px;
+	float: right;
+	margin: -5px -5px -4px 0;
+	width: 171px;
+}
+
+.dsb-right .author {
+	width: 130px;
+	height: 30px;
+	float: left;
+}
+
+.author .au-icon {
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	float: left;
+}
+
+.au-icon img {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.author .au-text {
+	height: 30px;
+	width: 100px;
+	margin-left: 30px;
+}
+
+.au-text h1 {
+	height: 15px;
+	line-height: 15px;
+	color: rgba(13, 13, 12, 1);
+	font-size: 12px;
+	text-align: left;
+}
+
+.au-text p {
+	height: 14px;
+	line-height: 14px;
+	color: rgba(102, 102, 102, 1);
+	font-size: 10px;
+}
+
+.dsb-right .follow {
+	width: 41px;
+	height: 20px;
+	float: right;
+}
+
+.follow span {
+	display: block;
+	width: 41px;
+	height: 20px;
+	line-height: 18px;
+	border-radius: 100px;
+	background-color: rgba(228, 70, 59, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid rgba(228, 70, 59, 1);
+	margin-top: 5px;
+}
+
+.follow span.active {
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(228, 70, 59, 1);
+	border: 1px solid rgba(228, 70, 59, 1);
+}
+
+.ds-cont {
+	background: #fff;
+}
+
+.ds-cont .dsc-h {
+	height: 42px;
+	padding: 14px 0 8px 0;
+	border-bottom: solid 1px #e2e2e4;
+}
+
+.dsc-h li {
+	float: left;
+	width: 50%;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.dsc-h li a {
+	display: block;
+	height: 20px;
+	width: 30px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	color: rgba(16, 16, 16, 1);
+}
+
+.dsc-h li span.n {
+	color: rgba(180, 180, 178, 1);
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+	right: -25px;
+}
+
+.dsc-h li.active a {
+	border-bottom: solid 3px #bb1c11;
+	color: #bb1c11;
+}
+
+.dsc-describe {
+	height: 39px;
+	margin: 5px;
+	border-left: solid 3px #e4463b;
+	overflow: hidden;
+	line-height: 20px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	padding: 0 3px;
+}
+
+.dsc-auther {
+	height: 33px;
+	border-top: solid 1px #e2e2e4;
+	line-height: 32px;
+	color: rgba(100, 93, 93, 1);
+	font-size: 12px;
+	margin: 0 13px;
+}
+
+.dsc-auther .date {
+	color: rgba(100, 93, 93, 1);
+	font-size: 12px;
+	float: right;
+}
+
+.dsc-books {
+	height: 74px;
+	padding: 6px 3px;
+	border: 1px dashed rgba(187, 187, 187, 1);
+}
+
+.dsc-books .bk-pre {
+	width: 70px;
+	height: 74px;
+	float: left;
+	line-height: 10px;
+	color: #757575;
+	font-size: 10px;
+}
+
+.dsc-books p {
+	height: 74px;
+	margin-left: 70px;
+	line-height: 17px;
+	padding-top: 10px;
+	font-size: 10px;
+	color: #757575;
+}
+
+.dsc-tags {
+	height: 65px;
+	padding: 4px;
+	border-bottom: solid 1px #e2e2e4;
+	margin: 0 13px;
+	overflow: hidden;
+}
+
+.dsc-tags span {
+	display: block;
+	margin-bottom: 3px;
+	float: left;
+	margin-right: 10px;
+	height: 25px;
+	line-height: 23px;
+	padding: 0 10px;
+	border-radius: 100px;
+	color: rgba(101, 102, 104, 1);
+	font-size: 10px;
+	text-align: center;
+	border: 1px solid rgba(209, 209, 209, 1);
+}
+
+.dsc-books::after,
+.dsc-tags::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.dsc-text {
+	padding: 5px;
+	line-height: 20px;
+	color: rgba(105, 105, 105, 1);
+	font-size: 14px;
+	text-align: left;
+	height: 300px;
+	overflow: hidden;
+}
+
+.dsc-text.text-all {
+	height: auto;
+}
+
+.dsc-text img {
+	margin: 5px 0;
+	max-width: 100%;
+}
+
+.dsc-more {
+	height: 30px;
+	opacity: 0.35;
+	border-radius: 4px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px solid rgba(213, 213, 213, 1);
+	margin-top: 10px;
+	cursor: pointer;
+	box-shadow: 0 -100px 100px #fff;
 }
