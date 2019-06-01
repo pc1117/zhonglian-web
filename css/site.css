@@ -409,6 +409,6 @@ img {
 }
 
 .bi-btn .star::before {
-	font-family: FontAwesome;
+	font-family: "FontAwesome";
 	content: "\f006";
 }
