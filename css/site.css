@@ -412,3 +412,29 @@ img {
 	font-family: "FontAwesome";
 	content: "\f006";
 }
+
+/* 加在更多 */
+.load-more {
+	height: 29px !important;
+	color: rgba(100, 93, 93, 1) !important;
+	font-size: 14px !important;
+	padding: 5px !important;
+	text-align: center !important;
+	cursor: pointer !important;
+	background: #fff !important;
+	margin-top: 10px;
+	border: 1px solid rgba(187, 187, 187, 1) !important;
+}
+
+.load-more .inner {
+	height: 18px !important;
+	line-height: 18px !important;
+	margin: 0 auto !important;
+	width: 194px !important;
+}
+
+.load-more .inner i.material-icons {
+	font-style: normal !important;
+	font-family: 'Material Icons' !important;
+	float: left !important;
+}

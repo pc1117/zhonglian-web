@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+.coupon .cp-navs {
+	height: 35px;
+
+	background-color: rgba(251, 252, 254, 1);
+	border: 1px solid rgba(225, 225, 227, 1);
+}
+
+.cp-navs ul {
+	height: 34px;
+	display: flex;
+	line-height: 32px;
+	margin-bottom: -1px;
+}
+
+.cp-navs ul li {
+	flex: 1;
+	height: 34px;
+	text-align: center;
+}
+
+.cp-navs li.active {
+	color: #E4463B;
+	border-bottom: solid 2px #E4463B;
+}
+
+.cp-navs ul li a {
+	color: #101010;
+	display: block;
+}
+
+.cp-navs ul li.active a {
+	color: #E4463B;
+}
+
+.cp-lists {
+	background-color: rgba(228, 70, 59, .12);
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+.cp-lists li {
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+.cp-lists li .top {
+	height: 78px;
+	border: solid 1px #bbb;
+	border-bottom: none;
+	padding: 6px;
+}
+
+.cp-lists li .top .icon {
+	width: 68px;
+	height: 66px;
+	float: left;
+}
+
+.cp-lists li .top .amount {
+	width: 75px;
+	height: 66px;
+	float: right;
+	padding-top: 15px;
+}
+
+.cp-lists li .top .amount .p {
+	height: 14px;
+	color: rgba(117, 117, 117, 1);
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+.cp-lists li .top .amount .h {
+	height: 16px;
+	color: rgba(228, 70, 59, 1);
+	font-size: 16px;
+}
+
+.cp-lists li .top .text {
+	margin-left: 73px;
+	height: 66px;
+	text-align: left;
+	margin-right: 80px;
+	padding-top: 4px;
+}
+
+.cp-lists li .top .text .h4 {
+	height: 14px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.cp-lists li .top .text .author {
+	height: 21px;
+	margin-top: 7px;
+}
+
+.cp-lists li .top .text .author span {
+	line-height: 19px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 10px;
+	border: 1px dashed rgba(228, 70, 59, 1);
+	padding: 0 5px;
+
+}
+
+.cp-lists li .top .text .date {
+	margin-top: 3px;
+	height: 14px;
+	color: rgba(100, 93, 93, 1);
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.cp-lists li .bot {
+	height: 30px;
+	border: dashed 1px #bbb;
+	text-align: left;
+	line-height: 28px;
+	padding: 0 20px 0 5px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.cp-lists li .bot .to-use {
+	float: right;
+	color: rgba(228, 70, 59, 1);
+	font-size: 12px;
+}
+
+.cp-lists li .bot::after {
+	font-family: "FontAwesome";
+	content: "\F105";
+	right: 10px;
+	top: 0;
+	font-size: 16px;
+	position: absolute;
+	font-weight: bold;
+}

@@ -215,7 +215,7 @@
 }
 
 
-.comment-area .list li.load-more {
+/* .comment-area .list li.load-more {
 	height: 29px;
 	color: rgba(100, 93, 93, 1);
 	font-size: 14px;
@@ -236,7 +236,7 @@
 	font-style: normal;
 	font-family: 'Material Icons';
 	float: left;
-}
+} */
 
 .comment-action .ca-stars {
 	height: 29px;
