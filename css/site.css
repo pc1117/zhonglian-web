@@ -277,19 +277,19 @@ img {
 	line-height: 30px;
 }
 
-.inner ul {
+.nav .inner ul {
 	display: block;
 	height: 23px;
 	width: 1200px;
 }
 
-.inner ul:after {
+.nav .inner ul:after {
 	clear: both;
 	display: table;
 	content: "";
 }
 
-.inner li {
+.nav .inner li {
 	height: 20px;
 	display: block;
 	float: left;
@@ -298,14 +298,14 @@ img {
 	padding: 0 2px;
 }
 
-.inner li a {
+.nav .inner li a {
 	color: rgba(228, 70, 59, 1);
 	font-weight: 600;
 	display: block;
 	padding: 0 15px;
 }
 
-.inner li.active a {
+.nav .inner li.active a {
 	border-bottom: solid 2px #f60;
 }
 

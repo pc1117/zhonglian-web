@@ -363,3 +363,98 @@
 	cursor: pointer;
 	box-shadow: 0 -100px 100px #fff;
 }
+
+.bottom-menus {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	z-index: 99999;
+	background: #fff;
+}
+
+.bottom-menus .inner {
+	height: 45px;
+	line-height: 43px;
+	border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.bottom-menus .inner ul {
+	display: flex;
+	flex-direction: row;
+	margin-right: 130px;
+	height: 45px;
+}
+
+.bottom-menus .inner ul li {
+	flex: 1;
+	height: 45px;
+}
+
+.bottom-menus .inner ul li span {
+	padding: 12px;
+	font-size: 24px;
+	color: #645D5D;
+	position: relative;
+}
+
+.bottom-menus .inner ul li.active span {
+	color: #CE1F13;
+}
+
+.bottom-menus .inner ul li span i {
+	position: absolute;
+	right: -25px;
+	top: 0;
+	font-style: normal;
+	font-size: 8px;
+}
+
+.bottom-menus .inner ul li .hand::before {
+	font-family: FontAwesome;
+	content: "\f087";
+}
+
+.bottom-menus .inner ul li .heart::before {
+	font-family: FontAwesome;
+	content: "\f184";
+}
+
+.bottom-menus .inner ul li .share::before {
+	font-family: FontAwesome;
+	content: "\f045";
+}
+
+.bottom-menus .inner .bi-btn {
+	width: 125px;
+	margin-top: -1px;
+	margin-right: -1px;
+	float: right;
+	height: 45px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: rgba(206, 31, 19, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	border: 1px solid rgba(187, 187, 187, 1);
+	cursor: pointer;
+}
+
+.bottom-menus .inner .bi-btn p {
+	line-height: 18px;
+	text-align: center;
+	padding: 4px;
+	font-size: 12px;
+}
+
+.bi-btn .star {
+	display: inline-block;
+	font-size: 20px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 5px;
+}
+
+.bi-btn .star::before {
+	font-family: FontAwesome;
+	content: "\f006";
+}
