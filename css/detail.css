@@ -80,7 +80,7 @@
 
 .dsb-left {
 	height: 20px;
-	width: 120px;
+	width: 130px;
 	float: left;
 }
 
@@ -97,6 +97,7 @@
 	display: block;
 	position: relative;
 	text-align: center;
+	color: #CE1F13;
 }
 
 .dsb-left .dollar {
@@ -107,6 +108,18 @@
 
 .dsb-left .dollar::before {
 	content: "\f155";
+	font-family: FontAwesome;
+
+}
+
+.dsb-left .video::before {
+	content: "\f03d";
+	font-family: FontAwesome;
+
+}
+
+.dsb-left .aideo::before {
+	content: "\f025";
 	font-family: FontAwesome;
 
 }
@@ -226,6 +239,10 @@
 	font-size: 14px;
 	text-align: center;
 	cursor: pointer;
+}
+
+.dsc-h .dsc-three li {
+	width: 33.33333%;
 }
 
 .dsc-h li a {
