@@ -4,45 +4,33 @@
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: local('Material Icons'), local('MaterialIcons-Regular'),
-		url(../font/material.570eb83859dc23dd0eec423a49e147fe.woff2) format('woff2'),
-		url(../font/material.012cf6a10129e2275d79d6adac7f3b02.woff) format('woff'),
-		url(../font/material.a37b0c01c0baf1888ca812cc0508f6e2.ttf) format('truetype');
+	src: local('Material Icons'), local('MaterialIcons-Regular'), url(../font/material.570eb83859dc23dd0eec423a49e147fe.woff2) format('woff2'), url(../font/material.012cf6a10129e2275d79d6adac7f3b02.woff) format('woff'), url(../font/material.a37b0c01c0baf1888ca812cc0508f6e2.ttf) format('truetype');
 }
 
 @font-face {
 	font-family: mb-icons;
 	font-weight: normal;
 	font-style: normal;
-	src: url(../font/mb-icons.fabc1dac04c0abb197bcabb1df65ec0b.woff) format('woff'),
-		url(../font/mb-icons.4a7cd2056e6418b619292484300bf570.ttf) format('truetype'),
-		url(../font/mb-icons.7bfd0ff85d9ffb0aec7a5fb73ec5a0af.svg) format('svg');
+	src: url(../font/mb-icons.fabc1dac04c0abb197bcabb1df65ec0b.woff) format('woff'), url(../font/mb-icons.4a7cd2056e6418b619292484300bf570.ttf) format('truetype'), url(../font/mb-icons.7bfd0ff85d9ffb0aec7a5fb73ec5a0af.svg) format('svg');
 }
 
 @font-face {
 	font-family: CustomIcon;
 	font-weight: normal;
 	font-style: normal;
-	src: url(../font/custom.03d005d54504bdd2791bc2f63e6f46e3.woff) format('woff'),
-		url(../font/custom.93fc495449f76225940d4663ccdcf854.ttf) format('truetype'),
-		url(../font/custom.186d1040a4bc3862b52fb0d1092ced37.svg) format('svg');
+	src: url(../font/custom.03d005d54504bdd2791bc2f63e6f46e3.woff) format('woff'), url(../font/custom.93fc495449f76225940d4663ccdcf854.ttf) format('truetype'), url(../font/custom.186d1040a4bc3862b52fb0d1092ced37.svg) format('svg');
 }
 
 @font-face {
 	font-family: FontAwesome;
 	font-weight: normal;
 	font-style: normal;
-	src: url(../font/font-awesome.af7ae505a9eed503f8b8e6982036873e.woff2) format('woff2'),
-		url(../font/font-awesome.fee66e712a8a08eef5805a46892932ad.woff) format('woff'),
-		url(../font/font-awesome.b06871f281fee6b241d60582ae9369b9.ttf) format('truetype'),
-		url(../font/font-awesome.912ec66d7572ff821749319396470bde.svg#fontawesomeregular) format('svg');
+	src: url(../font/font-awesome.af7ae505a9eed503f8b8e6982036873e.woff2) format('woff2'), url(../font/font-awesome.fee66e712a8a08eef5805a46892932ad.woff) format('woff'), url(../font/font-awesome.b06871f281fee6b241d60582ae9369b9.ttf) format('truetype'), url(../font/font-awesome.912ec66d7572ff821749319396470bde.svg#fontawesomeregular) format('svg');
 }
 
 @font-face {
 	font-family: Dora;
-	src: url(../font/dora.eb81a2a5e38fbd30ea9ce661fcf1220d.woff) format('woff'),
-		url(../font/dora.43aac7f8bc42f68da1a037518df7e461.ttf) format('truetype'),
-		url(../font/dora.1a2a0d69c54bffa79afca4a9be07c743.svg) format('svg');
+	src: url(../font/dora.eb81a2a5e38fbd30ea9ce661fcf1220d.woff) format('woff'), url(../font/dora.43aac7f8bc42f68da1a037518df7e461.ttf) format('truetype'), url(../font/dora.1a2a0d69c54bffa79afca4a9be07c743.svg) format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -72,6 +60,10 @@ a:link {
 a,
 img {
 	border: none;
+}
+
+.clearfix {
+	clear: both;
 }
 
 .header {
@@ -199,7 +191,6 @@ img {
 	margin-top: 2px;
 }
 
-
 .fl-icon span.home:before {
 	font-family: FontAwesome;
 	content: "\F14E";
@@ -230,7 +221,6 @@ img {
 	content: "\F007";
 	display: block;
 }
-
 
 .header-h {
 	font: 500 16px/30px "microsoft yahei";
@@ -326,4 +316,99 @@ img {
 	color: #EE190B;
 	font-family: FontAwesome;
 	position: relative;
+}
+
+.bottom-menus {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	z-index: 99999;
+	background: #fff;
+}
+
+.bottom-menus .inner {
+	height: 45px;
+	line-height: 43px;
+	border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.bottom-menus .inner ul {
+	display: flex;
+	flex-direction: row;
+	margin-right: 130px;
+	height: 45px;
+}
+
+.bottom-menus .inner ul li {
+	flex: 1;
+	height: 45px;
+}
+
+.bottom-menus .inner ul li span {
+	padding: 12px;
+	font-size: 24px;
+	color: #645D5D;
+	position: relative;
+}
+
+.bottom-menus .inner ul li.active span {
+	color: #CE1F13;
+}
+
+.bottom-menus .inner ul li span i {
+	position: absolute;
+	right: -25px;
+	top: 0;
+	font-style: normal;
+	font-size: 8px;
+}
+
+.bottom-menus .inner ul li .hand::before {
+	font-family: FontAwesome;
+	content: "\f087";
+}
+
+.bottom-menus .inner ul li .heart::before {
+	font-family: FontAwesome;
+	content: "\f184";
+}
+
+.bottom-menus .inner ul li .share::before {
+	font-family: FontAwesome;
+	content: "\f045";
+}
+
+.bottom-menus .inner .bi-btn {
+	width: 125px;
+	margin-top: -1px;
+	margin-right: -1px;
+	float: right;
+	height: 45px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: rgba(206, 31, 19, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	border: 1px solid rgba(187, 187, 187, 1);
+	cursor: pointer;
+}
+
+.bottom-menus .inner .bi-btn p {
+	line-height: 18px;
+	text-align: center;
+	padding: 4px;
+	font-size: 12px;
+}
+
+.bi-btn .star {
+	display: block;
+	font-size: 20px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 5px;
+}
+
+.bi-btn .star::before {
+	font-family: FontAwesome;
+	content: "\f006";
 }
