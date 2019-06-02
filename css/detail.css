@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 .details .ds-icon {
 	height: 385px;
 	position: relative;
@@ -295,7 +296,6 @@
 
 .dsc-books .bk-pre {
 	width: 70px;
-	height: 74px;
 	float: left;
 	line-height: 10px;
 	color: #757575;
@@ -334,14 +334,15 @@
 	border: 1px solid rgba(209, 209, 209, 1);
 }
 
-.dsc-books::after, .dsc-tags::after {
+.dsc-books::after,
+.dsc-tags::after {
 	display: table;
 	content: "";
 	clear: both;
 }
 
 .dsc-text {
-	padding: 5px;
+	padding: 15px 5px 5px 5px;
 	line-height: 20px;
 	color: rgba(105, 105, 105, 1);
 	font-size: 14px;

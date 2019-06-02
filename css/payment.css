@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+.payment {
+	background-color: rgba(251, 252, 254, 1);
+}
+
+.payment .pay-h {
+	height: 45px;
+	background-color: rgba(251, 252, 254, 1);
+	border: 1px solid rgba(225, 225, 227, 1);
+	padding: 0 10px 0 22px;
+}
+
+.ph-check {
+	margin-top: 10px;
+	height: 23px;
+	float: left;
+	font-size: 14px;
+	line-height: 23px;
+	cursor: pointer;
+}
+
+.pay-h .ph-sort {
+	height: 43px;
+	float: right;
+	color: #101010;
+	font-size: 12px;
+	line-height: 43px;
+}
+
+.ph-sort::before {
+	font-family: "FontAwesome";
+	content: "\f176";
+	padding-right: 3px;
+}
+
+.ph-sort.active::before {
+	content: "\f175";
+}
+
+.ph-check span {
+	float: left;
+	display: block;
+	padding-right: 3px;
+}
+
+.pay-h .ph-check span {
+	padding-right: 15px;
+}
+
+.ph-check span::before {
+	font-family: "FontAwesome";
+	content: "\f1db";
+	font-size: 23px;
+}
+
+.ph-check.active {
+	color: #bb1c11;
+}
+
+.ph-check.active span::before {
+	content: "\f058";
+}
+
+.pay-list li {
+	height: 65px;
+	padding-left: 24px;
+	padding-right: 24px;
+	position: relative;
+	background: #fbfcfe;
+}
+
+.pay-list ul li::after {
+	content: "";
+	display: block;
+	height: 1px;
+	position: absolute;
+	background: #e3e4e6;
+	bottom: 0px;
+	left: 40px;
+	right: 0;
+	clear: both;
+}
+
+.pay-list ul li .ph-check {
+	float: left;
+	margin-top: 21px;
+}
+
+.pay-list .ph-idnex {
+	width: 50px;
+	height: 64px;
+	line-height: 64px;
+	color: rgba(133, 141, 143, 1);
+	font-size: 16px;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+}
+
+.pay-list .ph-text {
+	height: 54px;
+	margin-left: 80px;
+	padding-top: 5px;
+}
+
+.ph-text .h {
+	height: 36px;
+	line-height: 18px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+}
+
+.ph-text .p {
+	height: 23px;
+	line-height: 23px;
+	color: rgba(100, 101, 103, 1);
+	font-size: 14px;
+}
+
+.ph-text .p .time {
+	float: right;
+	color: rgba(100, 101, 103, 1);
+}
+
+.time::before {
+	content: "\f017";
+	font-family: "FontAwesome";
+	padding-right: 3px;
+}
+
+.pay-action {
+	margin-top: 40px;
+}
+
+.pay-action .pa-h {
+	height: 30px;
+	line-height: 28px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid rgba(187, 187, 187, 1);
+	position: relative;
+	background: #fff;
+}
+
+.pay-action .pa-h::after {
+	color: #CE1F13;
+	content: "\f078";
+	font-family: "FontAwesome";
+	position: absolute;
+	right: 10px;
+}
+
+.pa-content {
+	padding: 10px 0;
+}
+
+.pa-content ul {
+	display: block;
+	background: #fff;
+	border-top: 1px solid rgba(187, 187, 187, 1);
+}
+
+.pa-content .pac-coupon li {
+	height: 40px;
+	line-height: 39px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	border: 1px solid rgba(187, 187, 187, 1);
+	border-top: none;
+	position: relative;
+	background: #fff;
+}
+
+.pa-content .pac-coupon li a {
+	color: rgba(16, 16, 16, 1);
+}
+
+.pac-coupon li::after {
+	content: "\f105";
+	font-family: "FontAwesome";
+	position: absolute;
+	right: 10px;
+	font-size: 16px;
+}
+
+.pac-coupon li::before {
+	content: "\f02e";
+	font-family: "FontAwesome";
+	color: #ce1f13;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 16px;
+}
+
+.pa-method .h {
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	color: #757575;
+}
+
+.pa-method ul {
+	display: block;
+	padding-top: 8px;
+}
+
+.pa-method ul li {
+	height: 28px;
+	margin-bottom: 8px;
+	padding: 0 10px;
+	line-height: 25px;
+	position: relative;
+	color: rgba(0, 0, 0, 1);
+	font-size: 12px;
+}
+
+.pa-method ul li .icon {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+
+.pa-method ul li .check {
+	float: right;
+	width: 22px;
+}
+
+.pa-method ul li .check::before {
+	font-family: "FontAwesome";
+	content: "";
+	font-size: 23px;
+}
+
+.pa-method ul li.active .check::before {
+	color: #09BB07;
+	font-family: "FontAwesome";
+	content: "\f058";
+	font-size: 23px;
+}
+
+.pa-method ul li::after {
+	position: absolute;
+	left: 48px;
+	right: 0;
+	bottom: 0;
+	height: 1px;
+	background: #bbb;
+	content: "";
+	clear: both;
+}
+
+
+.pa-total {
+	height: 20px;
+	line-height: 20px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.pa-total .active {
+	color: #e44c3b;
+}
+
+.pa-submit {
+	text-align: center;
+	padding-top: 10px;
+	border-top: solid 1px #bbb;
+}
+
+.pa-submit button {
+	height: 40px;
+	line-height: 38px;
+	border-radius: 100px;
+	background-color: rgba(228, 70, 59, 1);
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid rgba(228, 70, 59, 1);
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	outline: none;
+	cursor: pointer;
+}

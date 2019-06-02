@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.explain {
+	padding: 5px;
+	background-color: rgba(251, 252, 254, 1);
+}
+
+.ex-header {
+	height: auto;
+	line-height: 20px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	border-left: solid 3px #e4463b;
+	padding: 0 5px;
+	max-height: 40px;
+	overflow: hidden;
+	white-space: normal;
+	text-overflow: ellipsis;
+}
+
+.ex-author {
+	height: 32px;
+	line-height: 30px;
+	border: solid 1px #ddd;
+	margin: 5px;
+	border-left: none;
+	border-right: none;
+}
+
+.ex-author .date {
+	float: right;
+}
+
+.ex-author::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+
+
+.ex-abinfo .conts {
+	background: #fff;
+}
+
+.ex-abinfo .conts h4 {
+	height: 25px;
+	font: 500 14px/25px "";
+	color: #646567;
+	padding: 0 5px;
+}
+
+.ex-abinfo .conts ul {
+	display: block;
+	padding: 5px 15px 0 15px;
+}
+
+.ex-abinfo .conts ul li {
+	height: 65px;
+	border-radius: 4px;
+	border: 1px solid rgba(187, 187, 187, 1);
+	margin-bottom: 10px;
+
+}
+
+.ex-abinfo .conts ul li .icon {
+	width: 65px;
+	height: 65px;
+	float: left;
+}
+
+.ex-abinfo .conts ul li::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.ex-abinfo .conts ul li .text {
+	margin-left: 75px;
+	height: 65px;
+	padding-top: 7px;
+}
+
+.ex-abinfo .conts ul li .text .h {
+	height: 14px;
+	color: rgba(57, 57, 59, 1);
+	font-size: 14px;
+}
+
+.ex-abinfo .conts ul li .text .p {
+	height: 17px;
+	margin-top: 20px;
+	color: rgba(151, 151, 153, 1);
+	font-size: 12px;
+}
+
+
+
+

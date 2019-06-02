@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/site.css" />
+	<link rel="stylesheet" type="text/css" href="css/detail.css" />
+	<link rel="stylesheet" type="text/css" href="css/explain.css" />
+	<title>公共说明</title>
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="audio-search">
+			<span class="arrow-back"></span>
+		</div>
+		<div class="other-search">
+			<span></span>
+		</div>
+		<div class="input-search header-h">XXXXXX说明页面</div>
+	</div>
+	<!-- 主体部分 -->
+	<div class="container explain">
+		<div class="ex-header">
+			财务危机应用实操学英文听，单排上下居中，最多两排显示，超过两排隐藏...
+		</div>
+		<div class="ex-author">
+			<span class="date">2019-08-23 17:50</span>
+			原著：托拉菲司机
+		</div>
+		<div class="ex-abinfo">
+			<div class="conts">
+				<h4>相关专栏文章</h4>
+				<ul>
+					<li>
+						<a href="#">
+							<div class="icon">
+								<img src="temp/zl-13.png" width="65" height="65" alt="">
+							</div>
+							<div class="text">
+								<div class="h">人家唱歌叫翻唱，你唱歌叫尬唱</div>
+								<div class="p">by cutties    阅读12.3万</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="icon">
+								<img src="temp/zl-13.png" width="65" height="65" alt="">
+							</div>
+							<div class="text">
+								<div class="h">人家唱歌叫翻唱，你唱歌叫尬唱</div>
+								<div class="p">by cutties    阅读12.3万</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="dsc-books">
+			<span class="bk-pre">
+				参考文献：
+			</span>
+			<p>《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》</p>
+		</div>
+		<div class="dsc-text" id="dscText">
+			<p>”鬼推磨“是一种神秘的控鬼术。
+				整个山村里只有爷爷会，爷爷死前，将鬼推磨传给我。
+				十六岁的我能不能活过十八岁，就看”鬼推磨“逆天改命
+				了。
+				一念生，一念死。连同生死者，名日：送葬者。
+			</p>
+			<p><img src="temp/zl-11.png" alt=""></p>
+		</div>
+		<div class="dsc-more" onclick="addMore()">点击查看更多</div>
+	</div>
+	<script>
+		/* 显示更多*/
+		function addMore() {
+			let dscText = document.querySelector("#dscText");
+			let dscMore = document.querySelector(".dsc-more")
+			if (dscText.className === "dsc-text") {
+				dscText.className = "dsc-text text-all";
+				dscMore.innerHTML = "点击收起全部";
+			} else {
+				dscText.className = "dsc-text";
+				dscMore.innerHTML = "点击查看更多";
+			}
+		}
+	</script>
+</body>
+
+</html>

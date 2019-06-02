@@ -48,6 +48,7 @@ body {
 	font-size: 14px;
 	color: #101010;
 	margin: 0 auto;
+	max-width: 640px;
 }
 
 a:hover,
