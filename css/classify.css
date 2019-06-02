@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.classify-header .header-h {
+	color: #EA1313;
+}
+
+.classify-conts {
+	padding: 10px 0;
+	background: #e2e3e5;
+}
+
+.classify-conts ul {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.classify-conts ul li {
+	height: 45px;
+	line-height: 44px;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(3, 3, 3, 1);
+	font-size: 17px;
+	padding: 0 34px 0 22px;
+	border-bottom: solid 1px #e2e3e5;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.classify-conts ul li::after {
+	font-family: "FontAwesome";
+	content: "\f105";
+	font-size: 20px;
+	position: absolute;
+	right: 22px;
+	color: #C7C7CC;
+	clear: both;
+}
+
+.classify-conts ul li span {
+	float: left;
+	width: 24px;
+	height: 24px;
+	display: block;
+	margin-right: 15px;
+	color: #E4463B;
+}
+
+
+.classify-conts ul li .chart::before {
+	font-family: "FontAwesome";
+	font-size: 22px;
+	content: "\f201";
+}
