@@ -1,185 +1,185 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/site.css" />
-	<link rel="stylesheet" type="text/css" href="css/detail.css" />
-	<title>内容详情-图文</title>
-</head>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<title>内容详情-图文</title>
+	</head>
 
-<body>
-	<!-- header -->
-	<div class="header">
-		<div class="audio-search">
-			<span class="arrow-back"></span>
+	<body class="header-fixed">
+		<!-- header -->
+		<div class="header">
+			<div class="audio-search">
+				<span class="arrow-back"></span>
+			</div>
+			<div class="other-search">
+				<span class="arrow-share"></span>
+			</div>
+			<div class="input-search header-h">财务危机应用实操十个字...</div>
 		</div>
-		<div class="other-search">
-			<span class="arrow-share"></span>
-		</div>
-		<div class="input-search header-h">财务危机应用实操十个字...</div>
-	</div>
-	<!-- 主体部分 -->
-	<div class="container details">
-		<div class="ds-icon">
-			<img src="temp/zl-10.png" height="385" width="100%">
-			<div class="dsi-on">
-				<div class="dsi-top">
-					<ul>
-						<li><span>佣金：50%</span></li>
-						<li><span>购买：￥199.99</span></li>
-						<li><span>佣金：50%</span></li>
-						<li><span>书豆：∝ 200.00</span></li>
-					</ul>
-				</div>
-				<div class="dsi-bot">
-					<div class="dsb-left">
+		<!-- 主体部分 -->
+		<div class="container details">
+			<div class="ds-icon">
+				<img src="temp/zl-10.png" height="385" width="100%">
+				<div class="dsi-on">
+					<div class="dsi-top">
 						<ul>
-							<li>
-								<span class="dollar">
-									<i>9999人</i>
-								</span>
-							</li>
-							<li>
-								<span class="eye">
-									<i>2万+</i>
-								</span>
-							</li>
+							<li><span>佣金：50%</span></li>
+							<li><span>购买：￥199.99</span></li>
+							<li><span>佣金：50%</span></li>
+							<li><span>书豆：∝ 200.00</span></li>
 						</ul>
 					</div>
-					<div class="dsb-right">
-						<div class="author">
-							<div class="au-icon">
-								<img src="temp/dt_01.gif" width="26" height="26" alt="">
-							</div>
-							<div class="au-text">
-								<h1>送葬者 心冢</h1>
-								<p>中链委员会</p>
-							</div>
+					<div class="dsi-bot">
+						<div class="dsb-left">
+							<ul>
+								<li>
+									<span class="dollar">
+										<i>9999人</i>
+									</span>
+								</li>
+								<li>
+									<span class="eye">
+										<i>2万+</i>
+									</span>
+								</li>
+							</ul>
 						</div>
-						<div class="follow">
-							<span>+关注</span>
-							<!-- <span class="active">已关注</span> -->
+						<div class="dsb-right">
+							<div class="author">
+								<div class="au-icon">
+									<img src="temp/dt_01.gif" width="26" height="26" alt="">
+								</div>
+								<div class="au-text">
+									<h1>送葬者 心冢</h1>
+									<p>中链委员会</p>
+								</div>
+							</div>
+							<div class="follow">
+								<span>+关注</span>
+								<!-- <span class="active">已关注</span> -->
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="ds-cont">
+				<div class="dsc-h">
+					<ul>
+						<li onclick="toggleDetail(this,1)" class="active"><a href="#">详情</a></li>
+						<li onclick="toggleDetail(this,2)">
+							<a href="#">
+								书评
+								<span class="n">837</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="dsc-describe">
+					财务危机应用实操学英文听，单排上下居中，最多两排显示，超过两排隐藏...
+				</div>
+				<div class="dsc-auther">
+					<span class="date">2019-08-23 17:50</span>
+					原著：托拉菲司机
+				</div>
+				<div class="dsc-books">
+					<span class="bk-pre">
+						参考文献：
+					</span>
+					<p>《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》</p>
+				</div>
+				<div style="clear: both"></div>
+				<div class="dsc-tags">
+					<span>春风十里</span>
+					<span>鹿先森乐队</span>
+					<span>春风十里</span>
+					<span>鹿先森乐队</span>
+					<span>春风十里</span>
+					<span>鹿先森乐队</span>
+				</div>
+				<div class="dsc-text" id="dscText">
+					<p>”鬼推磨“是一种神秘的控鬼术。
+						整个山村里只有爷爷会，爷爷死前，将鬼推磨传给我。
+						十六岁的我能不能活过十八岁，就看”鬼推磨“逆天改命
+						了。
+						一念生，一念死。连同生死者，名日：送葬者。
+					</p>
+					<p><img src="temp/zl-11.png" alt=""></p>
+				</div>
+				<div class="dsc-more" onclick="addMore()">点击查看更多</div>
+			</div>
 		</div>
-		<div class="ds-cont">
-			<div class="dsc-h">
-				<ul>
-					<li onclick="toggleDetail(this,1)" class="active"><a href="#">详情</a></li>
-					<li onclick="toggleDetail(this,2)">
-						<a href="#">
-							书评
-							<span class="n">837</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="dsc-describe">
-				财务危机应用实操学英文听，单排上下居中，最多两排显示，超过两排隐藏...
-			</div>
-			<div class="dsc-auther">
-				<span class="date">2019-08-23 17:50</span>
-				原著：托拉菲司机
-			</div>
-			<div class="dsc-books">
-				<span class="bk-pre">
-					参考文献：
-				</span>
-				<p>《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》《梁山好汉》《红楼梦》</p>
-			</div>
-			<div style="clear: both"></div>
-			<div class="dsc-tags">
-				<span>春风十里</span>
-				<span>鹿先森乐队</span>
-				<span>春风十里</span>
-				<span>鹿先森乐队</span>
-				<span>春风十里</span>
-				<span>鹿先森乐队</span>
-			</div>
-			<div class="dsc-text" id="dscText">
-				<p>”鬼推磨“是一种神秘的控鬼术。
-					整个山村里只有爷爷会，爷爷死前，将鬼推磨传给我。
-					十六岁的我能不能活过十八岁，就看”鬼推磨“逆天改命
-					了。
-					一念生，一念死。连同生死者，名日：送葬者。
-				</p>
-				<p><img src="temp/zl-11.png" alt=""></p>
-			</div>
-			<div class="dsc-more" onclick="addMore()">点击查看更多</div>
-		</div>
-	</div>
-	<!-- 底部购买菜单 -->
-	<div class="bottom-menus">
-		<div class="inner">
-			<div class="bi-btn">
-				<span class="star"></span>
-				已授权
-				<!-- <p>￥9999<br />
+		<!-- 底部购买菜单 -->
+		<div class="bottom-menus">
+			<div class="inner">
+				<div class="bi-btn">
+					<span class="star"></span>
+					已授权
+					<!-- <p>￥9999<br />
 					全集支付
 				</p> -->
+				</div>
+				<ul>
+					<li class="active" onclick="doAction(this)">
+						<span class="hand">
+							<i>10万+</i>
+						</span>
+					</li>
+					<li onclick="doAction(this)">
+						<span class="heart">
+							<i>9999</i>
+						</span>
+					</li>
+					<li onclick="doAction(this)">
+						<span class="share">
+							<i>10万+</i>
+						</span>
+					</li>
+				</ul>
+
 			</div>
-			<ul>
-				<li class="active" onclick="doAction(this)">
-					<span class="hand">
-						<i>10万+</i>
-					</span>
-				</li>
-				<li onclick="doAction(this)">
-					<span class="heart">
-						<i>9999</i>
-					</span>
-				</li>
-				<li onclick="doAction(this)">
-					<span class="share">
-						<i>10万+</i>
-					</span>
-				</li>
-			</ul>
-
 		</div>
-	</div>
-	<script>
-		/* 详情、书评切换 */
-		function toggleDetail($this, n) {
-			let $className = $this.className;
-			if ($className === "active") return;
-			let navs = document.querySelectorAll(".dsc-h li");
-			for (let i = 0; i < navs.length; i++) {
-				let cell = navs[i];
-				cell.className = "";
-			}
-			$this.className = "active";
-
-			// do somethings
-		}
-		/* 显示更多*/
-		function addMore() {
-			let dscText = document.querySelector("#dscText");
-			let dscMore = document.querySelector(".dsc-more")
-			if (dscText.className === "dsc-text") {
-				dscText.className = "dsc-text text-all";
-				dscMore.innerHTML = "点击收起全部";
-			} else {
-				dscText.className = "dsc-text";
-				dscMore.innerHTML = "点击查看更多";
-			}
-		}
-		/* 点赞啥的 */
-		function doAction($this) {
-			let $className = $this.className;
-			if ($className === "active") {
-				$this.className = "";
-				// do somethings
-			} else {
+		<script>
+			/* 详情、书评切换 */
+			function toggleDetail($this, n) {
+				let $className = $this.className;
+				if ($className === "active") return;
+				let navs = document.querySelectorAll(".dsc-h li");
+				for (let i = 0; i < navs.length; i++) {
+					let cell = navs[i];
+					cell.className = "";
+				}
 				$this.className = "active";
+
 				// do somethings
 			}
-		}
-	</script>
-</body>
+			/* 显示更多*/
+			function addMore() {
+				let dscText = document.querySelector("#dscText");
+				let dscMore = document.querySelector(".dsc-more")
+				if (dscText.className === "dsc-text") {
+					dscText.className = "dsc-text text-all";
+					dscMore.innerHTML = "点击收起全部";
+				} else {
+					dscText.className = "dsc-text";
+					dscMore.innerHTML = "点击查看更多";
+				}
+			}
+			/* 点赞啥的 */
+			function doAction($this) {
+				let $className = $this.className;
+				if ($className === "active") {
+					$this.className = "";
+					// do somethings
+				} else {
+					$this.className = "active";
+					// do somethings
+				}
+			}
+		</script>
+	</body>
 
 </html>
